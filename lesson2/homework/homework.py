@@ -2,7 +2,11 @@
 # Ask the user for two numbers.
 # Print their quotient and remainder on separate lines.
 
+n1 = int(input("Enter a number: "))
+n2 = int(input("Enter a second number: "))
 
+print("Quotient: ", n1*n2)
+print("Remainder: ", n1%n2)
 
 # Homework Problem 2
 # Ask the user for their favorite animal and favorite color.
